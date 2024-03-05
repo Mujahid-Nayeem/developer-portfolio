@@ -182,20 +182,39 @@ main section {
     margin-top: 0px;
 }
 
-.resume-container hr{
+.resume-container hr {
     margin: 30px;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     gap: 70px;
 }
 
 /* Footer styles */
 
-footer{
+footer {
     display: flex;
+    gap: 100px;
     background: #fff8f3;
     margin-top: 100px;
     padding: 130px 200px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input,
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+
+    /* White Color */
+    background: #ffffff;
+    border: 0;
+    width: 100%;
 }
